@@ -1,17 +1,17 @@
-from micromlgen import platforms
-from micromlgen.svm import is_svm, port_svm
-from micromlgen.rvm import is_rvm, port_rvm
-from micromlgen.sefr import is_sefr, port_sefr
-from micromlgen.decisiontreeclassifier import is_decisiontree, port_decisiontree
-from micromlgen.decisiontreeregressor import is_decisiontree_regressor, port_decisiontree_regressor
-from micromlgen.randomforestclassifier import is_randomforest, port_randomforest
-from micromlgen.randomforestregressor import is_randomforest_regressor, port_randomforest_regressor
-from micromlgen.logisticregression import is_logisticregression, port_logisticregression
-from micromlgen.gaussiannb import is_gaussiannb, port_gaussiannb
-from micromlgen.pca import is_pca, port_pca
-from micromlgen.principalfft import is_principalfft, port_principalfft
-from micromlgen.linear_regression import is_linear_regression, port_linear_regression
-from micromlgen.xgboost import is_xgboost, port_xgboost
+from circuitml import platforms
+from circuitml.svm import is_svm, port_svm
+from circuitml.rvm import is_rvm, port_rvm
+from circuitml.sefr import is_sefr, port_sefr
+from circuitml.decisiontreeclassifier import is_decisiontree, port_decisiontree
+from circuitml.decisiontreeregressor import is_decisiontree_regressor, port_decisiontree_regressor
+from circuitml.randomforestclassifier import is_randomforest, port_randomforest
+from circuitml.randomforestregressor import is_randomforest_regressor, port_randomforest_regressor
+from circuitml.logisticregression import is_logisticregression, port_logisticregression
+from circuitml.gaussiannb import is_gaussiannb, port_gaussiannb
+from circuitml.pca import is_pca, port_pca
+from circuitml.principalfft import is_principalfft, port_principalfft
+from circuitml.linear_regression import is_linear_regression, port_linear_regression
+from circuitml.xgboost import is_xgboost, port_xgboost
 
 
 def port(
