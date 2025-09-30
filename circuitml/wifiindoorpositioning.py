@@ -1,6 +1,6 @@
 import json
 import numpy as np
-from micromlgen.utils import jinja
+from circuitml.utils import jinja
 
 
 def parse_samples(samples, parser):

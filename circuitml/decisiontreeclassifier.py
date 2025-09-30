@@ -1,4 +1,4 @@
-from micromlgen.utils import jinja, check_type
+from circuitml.utils import jinja, check_type
 
 
 def is_decisiontree(clf):

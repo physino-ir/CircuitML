@@ -1,6 +1,6 @@
 venv
 .idea
 tests
-micromlgen/__pycache__
+circuitml/__pycache__
 wip.py
 wip.txt
