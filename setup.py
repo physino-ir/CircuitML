@@ -4,7 +4,7 @@ from distutils.core import setup
 setup(
   name = 'circuitml',
   packages = ['circuitml'],
-  version = '1.0.1',
+  version = '1.0.2',
   license='MIT',
   description = ' Generate C code for microcontrollers from Python\'s machine learning models',
   author = 'Physino',
