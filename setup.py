@@ -4,11 +4,11 @@ from distutils.core import setup
 setup(
   name = 'circuitml',
   packages = ['circuitml'],
-  version = '1.0',
+  version = '1.0.2',
   license='MIT',
   description = ' Generate C code for microcontrollers from Python\'s machine learning models',
-  author = 'KaspiElectronics',
-  author_email = 'kaspielectronics@pm.me',
+  author = 'Physino',
+  author_email = 'info@physino.ir',
   url = 'https://github.com/KaspiElectronics/CircuitML/',
   keywords = [
     'ML',
