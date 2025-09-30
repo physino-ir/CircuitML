@@ -62,7 +62,7 @@ from circuitml import port
 
 X = load_iris().data
 pca = PCA(n_components=2, whiten=False).fit(X)
-    
+
 print(port(pca))
 ```
 
@@ -94,7 +94,7 @@ regr = RandomForestRegressor(n_estimators=10, max_depth=10, min_samples_leaf=5).
     
 with open('RandomForestRegressor.h', 'w') as file:
     file.write(port(regr))
-    
+
 X,y = load_iris(return_X_y=True)
 # clf = DecisionTreeClassifier(max_depth=10, min_samples_leaf=5).fit(X, y)
 clf = RandomForestClassifier(n_estimators=10, max_depth=10, min_samples_leaf=5).fit(X, y)
