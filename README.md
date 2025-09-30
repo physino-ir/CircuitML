@@ -3,7 +3,7 @@
 
 ## Install
 ```
-pip install circuitml
+pip install git+https://github.com/physino-ir/CircuitML.git
 ```
 
 ## Supported Models
