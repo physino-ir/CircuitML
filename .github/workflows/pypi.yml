@@ -1,9 +1,11 @@
 name: Publish to PyPI
 
 on:
-  tag:
+  push:
     branches:
-      - master
+      - main
+    paths:
+      - "version"
 
 jobs:
   publish:
@@ -26,12 +28,12 @@ jobs:
         echo "VERSION=$VER" >> $GITHUB_ENV
     - name: Install locally to test
       run: python -m pip install ./dist/circuitml-${{ env.VERSION }}.tar.gz
+    # - name: Run unit test
+    #  run: python ./test/test_circuitml.py
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
         user: __token__
         password: ${{ secrets.PYPI_TOKEN }}
     - name: Install Pacakage from pypi
-      run: python -m pip install circuiteml
-      
-      
+      run: python -m pip install circuitml
