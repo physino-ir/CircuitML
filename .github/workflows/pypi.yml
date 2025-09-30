@@ -7,6 +7,7 @@ on:
     paths:
       - "version"
 
+
 jobs:
   publish:
     runs-on: ubuntu-latest
